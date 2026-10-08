@@ -5,3 +5,4 @@ button.addEventListener('click', function () {
 });
 const firstName = document.querySelector('#firstName').value;
 const lastName = document.querySelector('#lastName').value;
+const service = document.querySelector('#service').value;
