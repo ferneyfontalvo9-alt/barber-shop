@@ -148,6 +148,13 @@ button {
     margin: 30px auto;
     box-sizing: border-box;
 }
+.slogan {
+    color: #D4AF37;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
 button:hover {
     background-color: white;
 }
