@@ -128,6 +128,15 @@ button {
     cursor: pointer;
 }
 
+.booking-card {
+    background-color: #1A1A1A;
+    border: 1px solid #D4AF37;
+    border-radius: 12px;
+    padding: 25px;
+    max-width: 400px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
 button:hover {
     background-color: white;
 }
