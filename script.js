@@ -7,7 +7,12 @@ button.addEventListener('click', function () {
     const date = document.querySelector('#date').value;
     const time = document.querySelector('#time').value;
 
+    if (!firstName || !lastName || !service || !date || !time) {
+        alert('Por favor, completa todos los campos.');
+        return;
+    }
+
     alert(
-        `¡Hola ${firstName} ${lastName}! Tu cita para ${service} está solicitada para el ${date} a las ${time}.`
+        `¡Hola ${firstName} ${lastName}! Tu solicitud para ${service} es el ${date} a las ${time}.`
     );
 });
