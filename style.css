@@ -55,6 +55,16 @@ select {
     border: 1px solid #D4AF37;
     border-radius: 5px;
     font-size: 16px;
+
+    select {
+    cursor: pointer;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #D4AF37;
+    outline-offset: 2px;
+}
 }
 h1, p, h2, button {
     text-align: center;
